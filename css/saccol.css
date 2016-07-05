@@ -5,8 +5,18 @@ body {
 	background: rgb(255,220,104) url("../images/cerveja.jpg") top center fixed;
 }
 
+@font-face { 
+    font-family:"bevan"; /* Título */
+    src: url("../fonts/bevan.ttf"); /* EOT file for IE */
+}
+@font-face {
+    font-family:"bevan";
+    src: url("../fonts/bevan.ttf"); /* TTF file for CSS3 browsers */
+}
+
+/* ==== Links ==== */
 a {
-	color: rgb(167,50,28);
+	color: #7F140F;
 	font-weight: 500;
 	text-decoration: underline;
 }
@@ -16,9 +26,8 @@ a:focus {
 	color: #FFFFFF;
 }
 
-/*.corpo {
-	border: rgb(255,220,104) .3em double;
-}*/
+/* ==== Cabeçalho ==== */
+
 .jumbotron {
     position: relative;
     background-color: transparent;
@@ -43,14 +52,7 @@ a:focus {
 	text-shadow: 2px 2px #000000;
 }
 
-@font-face {
-    font-family:"bevan";
-    src: url("../fonts/bevan.ttf"); /* EOT file for IE */
-}
-@font-face {
-    font-family:"bevan";
-    src: url("../fonts/bevan.ttf"); /* TTF file for CSS3 browsers */
-}
+/* ==== Navegação ==== */
 
 nav li {
 	list-style: none;
@@ -69,8 +71,8 @@ nav li a{
 	color: rgb(255,220,104);
 }
 
+/* ==== Introdução ==== */
 
-/* ==== "Pizza" ==== */
 .pizza {
 	background-color: rgb(255,220,104);
 	background-image: url('../images/yellow-paper-texture-min.jpg');
@@ -79,7 +81,7 @@ nav li a{
 	padding: 2em;
 }
 
-/*  ==== Cardapio ==== */    
+/*  ==== Cardápio ==== */    
 
 #cardapio {
   padding-top: 1em;
@@ -144,7 +146,22 @@ nav li a{
 opacity: 1;	
 }
 
-/*  ==== Lanches: localizacao; ==== */    
+/*  ==== Horário ==== */    
+
+.horario {
+    text-shadow: 2px 2px #000000;
+}
+
+/*  ==== Cartões ==== */
+
+.xis {
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: .5em;
+}
+
+/*  ==== Localização ==== */    
 
 .lanches {
   background-color: rgb(255,220,104);
@@ -160,23 +177,16 @@ opacity: 1;
   padding-top: .3em;
 }
 
-.horario {
-	text-shadow: 2px 2px #000000;
-}
+/*  ==== Rodapé ==== */    
 
 .copyright {	
 	text-shadow: 1px 1px #000000;	
 	margin-bottom: 1%;
-	font-weight: 800;
+	font-weight: 300;
+    font-size: 1.4em;
+    letter-spacing: .05em;
 }
 
 .copyright a {
 	color: rgb(255,220,104);
-}
-
-.xis {
-	background-color: white;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    border-radius: .5em;
 }
