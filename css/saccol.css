@@ -1,0 +1,182 @@
+body {
+	background-color: rgb(167,50,28);
+	color: #FFFFFF;
+	font-family: sans-serif;
+	background: rgb(255,220,104) url("../images/cerveja.jpg") top center fixed;
+}
+
+a {
+	color: rgb(167,50,28);
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+	color: #FFFFFF;
+}
+
+/*.corpo {
+	border: rgb(255,220,104) .3em double;
+}*/
+.jumbotron {
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 15em;
+    margin-bottom: 0;
+}
+
+.name {
+	text-align: center;
+	font-size: 2em;
+	font-family: "bevan";
+	text-shadow: 2px 2px #000000;
+	letter-spacing: 2px;
+	word-spacing: 0.5em;
+}
+
+.telefone {
+	text-shadow: 2px 2px #000000;
+}
+
+@font-face {
+    font-family:"bevan";
+    src: url("../fonts/bevan.ttf"); /* EOT file for IE */
+}
+@font-face {
+    font-family:"bevan";
+    src: url("../fonts/bevan.ttf"); /* TTF file for CSS3 browsers */
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	font-size: 1.4em;
+	font-weight: 200;
+	margin-top: .5em;
+	margin-bottom: 1em;
+	letter-spacing: 1px;
+}
+
+nav li a{
+	text-decoration: none;
+	text-shadow: 1px 1px rgb(53,37,4);
+	font-weight: 500;
+	color: rgb(255,220,104);
+}
+
+
+/* ==== "Pizza" ==== */
+.pizza {
+	background-color: rgb(255,220,104);
+	background-image: url('../images/yellow-paper-texture-min.jpg');
+	background-position: center;
+	color: #000000;
+	padding: 2em;
+}
+
+/*  ==== Cardapio ==== */    
+
+#cardapio {
+  padding-top: 1em;
+  padding-bottom: .5em;
+  text-shadow: 2px 2px #000000;
+}
+
+.price {
+  float: right;
+}
+
+.list-group-item {
+  background-color: #7F140F;
+  color: #FFFFFF;
+  border: none; 
+  font-size: 1.2em;
+  border-right: 1px white solid;
+  border-left: 1px white solid;
+  border-bottom: 1px white solid;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #7F140F;
+    color: #FFFFFF;
+    font-size: 1.3em;
+}
+
+.nav-tabs>li>a, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+    background-color: rgb(53,37,4);
+    color: #FFFFFF;
+    font-size: 1.3em;
+}
+
+.nav-tabs>li>a {
+  font-size: 1.3em;  
+}
+
+.nav-tabs>li>a:hover,
+.nav-tabs>li>a:focus {
+  background-color: #7F140F;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*  ==== Tele; ==== */    
+
+.teleentrega {
+	color: #000000;
+	background-color: rgb(146,137,65);
+	border: 1px solid white;
+	display: block;
+	border-radius: 4px;
+	text-align: center;
+	padding-bottom: 1em;
+	margin-bottom: 2em; 
+}
+
+.lead {
+opacity: 1;	
+}
+
+/*  ==== Lanches: localizacao; ==== */    
+
+.lanches {
+  background-color: rgb(255,220,104);
+  background-image: url('../images/yellow-paper-texture-min.jpg');
+  background-position: center;
+  color: #000000;
+  margin-top: 2em;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.lanches h1 {
+  padding-top: .3em;
+}
+
+.horario {
+	text-shadow: 2px 2px #000000;
+}
+
+.copyright {	
+	text-shadow: 1px 1px #000000;	
+	margin-bottom: 1%;
+	font-weight: 800;
+}
+
+.copyright a {
+	color: rgb(255,220,104);
+}
+
+.xis {
+	background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: .5em;
+}
