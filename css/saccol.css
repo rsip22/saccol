@@ -2,7 +2,7 @@ body {
 	background-color: rgb(167,50,28);
 	color: #FFFFFF;
 	font-family: sans-serif;
-	background: rgb(255,220,104) url("../images/cerveja.jpg") top center fixed;
+  background: rgb(255,220,104) url("../images/cerveja.jpg") top center no-repeat;
 }
 
 @font-face { 
@@ -191,4 +191,12 @@ opacity: 1;
 
 .copyright a {
 	color: rgb(255,220,104);
+}
+
+
+/*  ==== Media Query ==== */ 
+@media (min-width: 992px) {
+  body {
+    background: rgb(255,220,104) url("../images/cerveja.jpg") top center fixed;
+  }
 }
