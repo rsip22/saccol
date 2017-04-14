@@ -251,4 +251,13 @@
         <script src="js/jquery-1.12.3.min.js" type="text/javascript" ></script>
         <script src="js/bootstrap.min.js" type="text/javascript" ></script>        
     </body>
+
+<script>
+if (iosVersion >= 7) {
+    $(document).scroll(function() {
+        $('#background').css('background-position', '0px ' + $(document).scrollTop() + 'px');
+    });
+}
+</script>
+
 </html>
