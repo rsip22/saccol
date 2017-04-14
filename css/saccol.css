@@ -43,6 +43,7 @@ a:focus {
 	text-align: center;
 	font-size: 2em;
 	font-family: "bevan";
+  color: #FFFFFF;
 	text-shadow: 2px 2px #000000;
 	letter-spacing: 2px;
 	word-spacing: 0.5em;
@@ -183,7 +184,7 @@ opacity: 1;
 	text-shadow: 1px 1px #000000;	
 	margin-bottom: 1%;
 	font-weight: 300;
-    font-size: 1.4em;
+    font-size: 1.1em;
     letter-spacing: .05em;
 }
 
