@@ -14,14 +14,11 @@ body {
     src: url("../fonts/bevan.ttf"); /* TTF file for CSS3 browsers */
 }
 
-.white {
-  color: white;
-}
-
 /* ==== Links ==== */
+
 a {
 	color: #FFFFFF;
-  text-shadow: #000000;
+  text-shadow: 1px 1px #000000;
 	font-weight: 500;
 	text-decoration: underline;
 }
@@ -68,13 +65,16 @@ nav li a{
 	font-weight: 500;
 }
 
+.yellow-img-bg {
+  background-color: rgb(255,220,104);
+  background-image: url('../images/yellow-paper-texture-min.jpg');
+  background-position: center;
+  color: #000000;
+}
+
 /* ==== Introdução ==== */
 
 .pizza {
-	background-color: rgb(255,220,104);
-	background-image: url('../images/yellow-paper-texture-min.jpg');
-	background-position: center;
-	color: #000000;
 	padding: 2em;
 }
 
@@ -151,10 +151,6 @@ opacity: 1;
 
 /*  ==== Localização ==== */    
 .lanches {
-  background-color: rgb(255,220,104);
-  background-image: url('../images/yellow-paper-texture-min.jpg');
-  background-position: center;
-  color: #000000;
   margin-top: 2em;
   text-align: center;
   border-radius: 4px;
@@ -187,7 +183,7 @@ opacity: 1;
   }
 
   nav li {
-      margin-bottom: 1em;
+    margin-bottom: 1em;
   }
 
   nav li a{
