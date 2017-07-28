@@ -3,7 +3,6 @@ body {
 	color: #FFFFFF;
 	font-family: sans-serif;
   background: #7F140F url("../images/cerveja.jpg") top center no-repeat;
-  background-size: cover;
 }
 
 @font-face { 
