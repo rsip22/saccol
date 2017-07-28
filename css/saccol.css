@@ -106,6 +106,7 @@ nav li a{
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     background-color: #7F140F;
     color: #FFFFFF;
+    font-weight: 500;
     font-size: 1.3em;
 }
 
