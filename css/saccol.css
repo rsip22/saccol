@@ -2,7 +2,8 @@ body {
 	background-color: rgb(167,50,28);
 	color: #FFFFFF;
 	font-family: sans-serif;
-	background: rgb(255,220,104) url("../images/cerveja.jpg") top center fixed;
+  background: #7F140F url("../images/cerveja.jpg") top center no-repeat;
+  background-size: cover;
 }
 
 @font-face { 
@@ -15,8 +16,10 @@ body {
 }
 
 /* ==== Links ==== */
+
 a {
-	color: #7F140F;
+	color: #FFFFFF;
+  text-shadow: 1px 1px #000000;
 	font-weight: 500;
 	text-decoration: underline;
 }
@@ -43,13 +46,9 @@ a:focus {
 	text-align: center;
 	font-size: 2em;
 	font-family: "bevan";
-	text-shadow: 2px 2px #000000;
+  color: #FFFFFF;
 	letter-spacing: 2px;
 	word-spacing: 0.5em;
-}
-
-.telefone {
-	text-shadow: 2px 2px #000000;
 }
 
 /* ==== Navegação ==== */
@@ -60,33 +59,30 @@ nav li {
 	font-size: 1.4em;
 	font-weight: 200;
 	margin-top: .5em;
-	margin-bottom: 1em;
 	letter-spacing: 1px;
 }
 
 nav li a{
-	text-decoration: none;
-	text-shadow: 1px 1px rgb(53,37,4);
 	font-weight: 500;
-	color: rgb(255,220,104);
+}
+
+.yellow-img-bg {
+  background-color: rgb(255,220,104);
+  background-image: url('../images/yellow-paper-texture-min.jpg');
+  background-position: center;
+  color: #000000;
 }
 
 /* ==== Introdução ==== */
 
 .pizza {
-	background-color: rgb(255,220,104);
-	background-image: url('../images/yellow-paper-texture-min.jpg');
-	background-position: center;
-	color: #000000;
 	padding: 2em;
 }
 
 /*  ==== Cardápio ==== */    
 
 #cardapio {
-  padding-top: 1em;
   padding-bottom: .5em;
-  text-shadow: 2px 2px #000000;
 }
 
 .price {
@@ -147,14 +143,7 @@ nav li a{
 opacity: 1;	
 }
 
-/*  ==== Horário ==== */    
-
-.horario {
-    text-shadow: 2px 2px #000000;
-}
-
 /*  ==== Cartões ==== */
-
 .xis {
     background-color: white;
     padding-top: 1em;
@@ -163,12 +152,7 @@ opacity: 1;
 }
 
 /*  ==== Localização ==== */    
-
 .lanches {
-  background-color: rgb(255,220,104);
-  background-image: url('../images/yellow-paper-texture-min.jpg');
-  background-position: center;
-  color: #000000;
   margin-top: 2em;
   text-align: center;
   border-radius: 4px;
@@ -184,10 +168,41 @@ opacity: 1;
 	text-shadow: 1px 1px #000000;	
 	margin-bottom: 1%;
 	font-weight: 300;
-    font-size: 1.4em;
+    font-size: 1.1em;
     letter-spacing: .05em;
 }
 
 .copyright a {
 	color: rgb(255,220,104);
+}
+
+
+/*  ==== Media Query ==== */ 
+@media (min-width: 1200px) {
+  
+  body {
+    background: rgb(255,220,104) url("../images/cerveja.jpg") top center fixed;
+    background-size: cover;
+  }
+
+  nav li {
+    margin-bottom: 1em;
+  }
+
+  nav li a{
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(53,37,4);
+    font-weight: 500;
+    color: rgb(255,220,104);
+  }
+
+  #cardapio {
+    padding-top: 1em;
+  }
+
+  .drop-shadow {
+    color: #FFFFFF;
+    text-shadow: 2px 2px #000000;
+  }
+
 }
